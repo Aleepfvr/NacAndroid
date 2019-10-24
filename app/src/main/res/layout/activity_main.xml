@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/resultadoGeral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="Resultado"
+    />
+    <EditText
+            android:id="@+id/cep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Seu cep"
+            android:maxLength="9"
+            android:inputType="textPostalAddress"
+    />
+    <Button
+            android:id="@+id/buttonRecuperar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recuperar dados"/>
+
+    <TextView
+            android:id="@+id/resultadoCep"
+            android:layout_width="match_parent"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:text="Resultado"/>
+    <TextView
+            android:id="@+id/resultadoLogradouro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="Resultado"/>
+    <TextView
+            android:id="@+id/resultadoComplemento"
+            android:layout_width="match_parent"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:text="Resultado"/>
+    <TextView
+            android:id="@+id/resultadoBairro"
+            android:layout_width="match_parent"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:text="Resultado"/>
+    <TextView
+            android:id="@+id/resultadoLocalidade"
+            android:layout_width="match_parent"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:text="Resultado"/>
+    <TextView
+            android:id="@+id/resultadoUf"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado"/>
+
+</LinearLayout>
